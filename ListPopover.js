@@ -4,7 +4,7 @@
 "use strict";
 
 var React = require('react-native');
-var SCREEN_HEIGHT = require('Dimensions').get('window').height;
+var SCREEN_HEIGHT = React.Dimensions.get('window').height;
 var {
   ListView,
   PropTypes,
